@@ -17,5 +17,5 @@ def contar(string_principal, string_a_contar)
   def contar_palabras(string_principal,string_a_contar)
       palabras=string_principal.downcase.split(" ")
       string_a_contar=string_a_contar.downcase
-      
+      palabras.inject(0){ |palabra,acomulador|  }
     
